@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz page</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    
+    <script src="https://kit.fontawesome.com/44d1ac3736.js" crossorigin="anonymous"></script>
+
+</head>
+
+<header>
+    <h2 id="logo"><a style="text-decoration: none; color :white;" href="https://angular.io/"><img class="logo"
+                src="images/logo.png" />Angular </a></h2>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="topic.html">Description</a>
+        <a href="quiz.html">Quiz Page</a>
+        <a href="https://github.com/angular/angular/issues">GitHub</a>
+        <a href="aboutus.html">About us</a>
+
+    </div>
+</header>
+<Form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php"></Form>
+
+
+<body>
+
+
+    <br>
+
+
+    <div class="container">
+
+        <h1> Quiz Page </h1>
+        <hr>
+        <br/>
+        <br/>
+        <body>
+
+            <Form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+            <h2>Personal Information</h2>
+            <br/>
+            <input type="text" autocomplete="off" name="First name" class="input-txt" placeholder="First Name"
+                maxlength="30" size="38" required="required" pattern="[A-Za-z]+">
+            <br/><br/>
+
+            <input type="text" autocomplete="off" name="Last name" class="input-txt" placeholder="last name"
+                maxlength="30" size="38"  required="required" pattern="[A-Za-z]+">
+            <br/><br/>
+
+            <input type="text" autocomplete="off" name="Student ID" class="input0-txt"
+                placeholder="Student ID" maxlength="10" size="38"   pattern="[0-9]{7}|[0-9]{10}" required="required">
+            <br/><br/>
+
+             
+                <div class="question-div">
+                    <h2><u>Questions...</u></h2>
+                    <br/>
+                    <fieldset>
+                        <legend style="background-color:rgba(255, 99, 71, 0.2);">Question 1 : </legend>
+                        <label class="question" for="question1"> What category of software development tools does
+                            angular belongs to?
+                        </label>
+                        <br/>
+                        <input type="text" class="input-txt" id="question1" name="Question1" required = "required" >
+                    </fieldset>
+                    <br/>
+
+                    <fieldset>
+
+                        <legend style="background-color:rgba(255, 99, 71, 0.2);">Question 2 : </legend>
+                        <label class="question" for="question2">Which company developed Angular? </label>
+                        <br />
+
+                        <input type="radio" id="question2-option1" name="Question2" value="Linux" required>
+                        <label for="question2-option1">Linux</label>
+                        <br />
+                        <input type="radio" id="question2-option2" name="Question2" value="Google" required>
+                        <label for="question2-option2">Goggle</label>
+                        <br />
+                        <input type="radio" id="question2-option3" name="Question2" value="Microsoft" required>
+                        <label for="question2-option3">Microsoft</label>
+                        <br />
+                        <input type="radio" id="question2-option4" name="Question2" value="Facebook" required>
+                        <label for="question2-option4">Facebook </label>
+                        <br />
+                        <input type="radio" id="question2-option5" name="Question2" value="Apple" required>
+                        <label for="question2-option5"> Apple </label>
+
+                    </fieldset>
+                    <br/>
+
+                    <fieldset>
+                        <legend style="background-color:rgba(255, 99, 71, 0.2);">Question 3 : </legend>
+                        <label class="question" for="question3">Which of the following are key feauters of Angular?
+                        </label>
+                        <br />
+                        <input type="checkbox" id="question3-option1" name="Question3" value="Reactive forms">
+                        <label for="question3-option1">Reactive forms </label>
+                        <br />
+                        <input type="checkbox" id="question3-option2" name="Question3" value="Virtual DOM">
+                        <label for="question3-option2">Virtual DOM </label>
+                        <br />
+                        <input type="checkbox" id="question3-option3" name="Question3" value="Cross-Platform">
+                        <label for="question3-option3"> Cross-platform development </label>
+                        <br />
+                        <input type="checkbox" id="question3-option4" name="Question3" value="RxJS">
+                        <label for="question3-option4">RxJS </label>
+                        <br />
+                        <input type="checkbox" id="question3-option1" name="Question3" value="Modular">
+                        <label for="question3-option5"> Modular architecture </label>
+
+                    </fieldset>
+                    <br/>
+
+                    <fieldset>
+                        <legend style="background-color:rgba(255, 99, 71, 0.2);">Question 4 : </legend>
+                        <label class="question" for="question4">In what year was Angular first released? </label>
+                            <br />
+                            <select id="question4" name="Question4" required>
+                                <option value="option"></option>
+                                <option value="2000">2000 </option>
+                                <option value="2001">2001 </option>
+                                <option value="2002">2002 </option>
+                                <option value="2003">2003 </option>
+                                <option value="2004">2004 </option>
+                                <option value="2005">2005 </option>
+                                <option value="2006">2006 </option>
+                                <option value="2007">2007 </option>
+                                <option value="2008">2008 </option>
+                                <option value="2009">2009 </option>
+                                <option value="2010">2010 </option>
+                                <option value="2011">2011 </option>
+                                <option value="2012">2012 </option>
+                                <option value="2013">2013 </option>
+                                <option value="2014">2014 </option>
+                                <option value="2015">2015 </option>
+                                <option value="2016">2016 </option>
+                                <option value="2017">2017 </option>
+                                <option value="2018">2018 </option>
+                                <option value="2019">2019 </option>
+                                <option value="2020">2020 </option>
+                                <option value="2021">2021 </option>
+                                <option value="2022">2022 </option>
+                                <option value="2023">2023 </option>
+                            </select>
+                    </fieldset>
+                    <br/>
+
+                    <fieldset>
+                        <legend style="background-color:rgba(255, 99, 71, 0.2);">Question 5 : </legend>
+                        <label class="question" for="question5">write a short paragraph about
+                            Angular</label><br>
+                        <textarea name="Question5" rowa="200" cols="100"></textarea>
+                        <br/><br/>
+                    </fieldset>
+                    <br>
+                </div>
+                <br/>
+    </div>
+
+    </fieldset>
+    <br/>
+
+    <input class="btn-reset" type="reset" value="Reset" />
+    <input class="btn-submit" type="submit" value="submit" />
+    </form>
+    <footer>
+        <div class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="https://www.facebook.com/groups/398779564139778/">Facebook</a>
+                <a href="https://www.youtube.com/@Angular">You Tube</a>
+                <a href="https://blog.angular.io">Blog</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="text" placeholder="Your Email Address">
+                    <br>
+                    <button type="submit">SUBMIT NOW</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <a href="mailto:sfathima@swin.edu.au" style="color:white; text-decoration: none">
+                    <p>sfathima@swin.edu.au</p>
+                </a>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/groups/398779564139778/"> <i style="color:white;"
+                            class="fab fa-facebook"></i> </a>
+                    <a href="https://twitter.com/angular?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                            style="color:white;" class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@Angular"> <i style="color:white;" class="fab fa-youtube"></i> </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

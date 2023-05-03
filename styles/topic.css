@@ -1,0 +1,182 @@
+/*
+filename: main.css
+authors: Nilanga Jude, Sulojan Kohilakumar, Inuka Shanal
+created: 18/04/2023
+last modified:30/04/2023
+description: angular description
+*/
+
+
+body {  font-family: verdana;
+        background-image: url("images/background-des2.jpg");
+        background-size: ;
+        background-position: center; 
+        background-repeat: repeat; 
+}
+
+
+
+/* Style the container */
+.main-box{
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 3px solid #120c21;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: 
+  max-width: 500px;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+/* Table styles*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: lightsteelblue; 
+  font-family: Arial, sans-serif;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: auto;
+  border: 3px solid #ddd;
+}
+
+table th {
+  background-color: #ccebff; /* light bluish color for header */
+}
+
+.table-text {color : black;}
+.aside {
+	     width:30%;
+		 float:right;
+		 border:4px gray groove;
+		 margin:20px;
+		 padding:10px;
+       
+    
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  color: #fff; 
+  text-align: center;
+  background-color: #034;
+  padding: 15px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color:red;
+	font-size:160%;
+}
+.main-box h3 {
+	color:#FFD700
+}
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+/*description list*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #123;
+  padding: 20px;
+  border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+dt {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #f2f2f2;
+  text-shadow: 1px 1px #000;
+  margin-bottom: 5px;
+}
+
+dd {
+  font-size: 1.1em;
+  line-height: 1.4;
+  color: #f2f2f2;
+  margin-bottom: 15px;
+
+}
+
+dt::before {
+  content: "\2022";
+  font-size: 1.4em;
+  color: #f2f2f2;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+  left: -1px;
+}
+
+dt::after {
+  content: ":";
+  margin-right: 5px;
+}
+
+dd:last-of-type {
+  margin-bottom: 0;
+}
+
+
+
+/*blockquotes */
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.8em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+ 
+#ref1 { text-decoration: none;
+        color: white;
+        float: right;
+    padding-right: 100px;
+}
+
+.h12 {width:64.2%;} 

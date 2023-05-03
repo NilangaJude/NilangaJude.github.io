@@ -1,0 +1,215 @@
+/*
+filename: quiz.css
+authors: heshara, sandali
+created: 18/04/2023
+last modified:30/04/2023
+description: quiz page css
+*/
+
+.container {
+  background-color: rgba(255,255,255, 0.7);
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #452a42;
+
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+
+fieldset{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: ;
+}
+textarea{
+  width: 600px;
+  height: 200px;
+}
+
+.question{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-txt{
+  width: 300px;
+  height: 40px;
+  padding: 6px;
+}
+
+.question-div{
+  padding: 20px;
+  background-color: #f1f1f1;
+    opacity: 0.6;
+}
+
+.btn-submit{
+  float: right;
+  margin-top: 50px;
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  margin-right:11%;
+}
+
+.btn-submit:hover{
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+.btn-reset{
+  margin-top: 50px;
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  margin-left: 60%;
+}
+
+.btn-reset:hover{
+  background-color: #c82333;
+  cursor: pointer;
+}
+body {font-family:verdana;}
+
+.footer{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+.footer div{
+  text-align: center; 
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-icons{
+  margin-top: 30px;  
+}
+.social-icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+
+
+
+.logo{float:left;
+    width: 55px;
+    margin-left: 30px;
+    margin-top: -12px;}
+
+header {position : relative;
+        background-color: #120c21 ;
+        width :100%;
+        color: white;
+        height : 10vh;
+        margin-top : 10px;
+        
+        }
+header{margin-top:-8px}
+
+header h2 { position: absolute;
+            margin-top:20px;
+            left: 10%
+            }
+
+.nav {position:relative;
+      width:100; 
+}
+
+.nav a{ position: relative;
+        left:50%;
+        top:23px;
+        color:white;
+        text-decoration: none;
+        margin-right:20px;
+        }
+
+.nav a:hover{
+    cursor: pointer;
+    background-color: rgba(130,130,130,0.2);
+    box-shadow: 0px 0px 0px 10px rgba(130,130,130,0.2);
+    border-radius: 1px;
+    transition: 0.3s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    background-color: rgba(130,130,130,0.2);
+    box-shadow:5px -5px 10px 10px rgba(130,130,130,0.2);
+    border-radius: 1px;
+    transition: 0.3s;
+}
+
+
+body { background-image: url("images/background-quiz.jpg");}

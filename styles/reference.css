@@ -1,0 +1,139 @@
+/*
+filename: reference.css
+authors: dilshan
+created: 28/04/2023
+last modified:30/04/2023
+description: references page
+*/
+
+.body{
+    background-image: url("images/wallpaper.png");
+    background-size: 100%;
+    margin-top: 1%;
+    background-position: center top 5%;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("Gotham.woff2");
+}
+/*header*/
+.logo{float:left;
+    width: 55px;
+    margin-left: 30px;
+    margin-top: -12px;}
+
+header {position : relative;
+    background-color: #120c21 ;
+    width :100%;
+    color: white;
+    height : 10vh;
+    font-family: verdana;
+    margin-top:-9px;
+    }
+
+header h2 { position: absolute;
+        margin-top:20px;
+        left: 10%
+        }
+
+.nav {position:relative;
+  width:100; 
+}
+
+.nav a{ position: relative;
+    left:50%;
+    top:23px;
+    color:white;
+    text-decoration: none;
+    margin-right:20px;
+    }
+
+.nav a:hover{
+cursor: pointer;
+background-color: rgba(130,130,130,0.2);
+box-shadow: 0px 0px 0px 10px rgba(130,130,130,0.2);
+border-radius: 1px;
+transition: 0.3s;
+}
+
+#logo:hover{
+cursor: pointer;
+background-color: rgba(130,130,130,0.2);
+box-shadow:5px -5px 10px 10px rgba(130,130,130,0.2);
+border-radius: 1px;
+transition: 0.3s;
+}
+/*footer part*/
+.footer{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', verdana;
+    margin-left: -1%;
+    margin-bottom: -100%;
+    margin-top: 400px;
+}
+.footer{
+    width: 71.45%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    
+}
+
+
+.footer div{
+    text-align: center; 
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;  
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+.reference{
+    width: 700px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #fff;
+}

@@ -1,0 +1,73 @@
+/*
+filename: aboutus.css
+authors: avishka
+created: 18/04/2023
+last modified:29/04/2023
+description: about us page
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,400;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.wrapper{
+    min-width: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images\pexels-bich-tran-669996.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial{
+    padding: 30px 100px;
+}
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+article h1:after{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+blockquote{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+article h5{
+    text-transform: uppercase;
+    font-size: 27px;
+    margin-top: 30px;
+}
+article p{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
